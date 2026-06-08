@@ -1,0 +1,10 @@
+{
+  "_comment": "Merge this snippet into your project's .mcp.json (project-scope, committed to the repo). After merging, restart Claude Code so the /motion and /motion-audit slash commands are discovered.",
+  "mcpServers": {
+    "motion-studio": {
+      "command": "npx",
+      "args": ["-y", "@motiondivision/motion-studio-mcp@latest"],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "design-craft",
+  "displayName": "Design Craft",
+  "description": "A 9-stage design playbook + 5-dimension critique rubric, likeness-portrait generation, and Capgemini Invent NA slide branding — for distinctive, on-brand UI and deliverables.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Spencer Scott"
+  },
+  "homepage": "https://github.com/spence-grows/claude-skills/tree/main/plugins/design-craft",
+  "repository": "https://github.com/spence-grows/claude-skills",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "design-process",
+    "playbook",
+    "branding",
+    "ui",
+    "presentations",
+    "frog",
+    "capgemini-invent"
+  ],
+  "skills": "./skills/"
+}

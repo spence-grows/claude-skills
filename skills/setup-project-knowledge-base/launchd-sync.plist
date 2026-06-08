@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copy to ~/Library/LaunchAgents/com.kb.<PID>-sync.plist; replace REPLACE_WITH_* ; then:
+       launchctl load -w ~/Library/LaunchAgents/com.kb.<PID>-sync.plist
+       launchctl list | grep <PID>-sync
+     launchd runs a missed 06:00 calendar job once on next wake. RunAtLoad=false avoids an ingest at load time
+     (which could collide with another running sync — LanceDB is single-writer). -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.kb.REPLACE_WITH_pid-sync</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/REPLACE_WITH_username/.copilot/bin/REPLACE_WITH_pid-sync.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>6</integer><key>Minute</key><integer>0</integer></dict>
+  <key>StandardOutPath</key><string>/Users/REPLACE_WITH_username/.copilot/logs/REPLACE_WITH_pid-sync.out.log</string>
+  <key>StandardErrorPath</key><string>/Users/REPLACE_WITH_username/.copilot/logs/REPLACE_WITH_pid-sync.err.log</string>
+  <key>RunAtLoad</key><false/>
+</dict>
+</plist>

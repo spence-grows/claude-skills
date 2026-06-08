@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "spencer-scott-skills",
+  "description": "Spencer Scott's Claude Code skills, authored for frog / Capgemini Invent work. One installable design-craft plugin, plus standalone workflow and scaling skills you can grab individually.",
+  "owner": {
+    "name": "Spencer Scott",
+    "email": "spencernu@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "design-craft",
+      "description": "A 9-stage design playbook + critique rubric, likeness-portrait generation, and Capgemini Invent NA slide branding.",
+      "author": {
+        "name": "Spencer Scott"
+      },
+      "category": "design",
+      "source": "./plugins/design-craft",
+      "homepage": "https://github.com/spence-grows/claude-skills/tree/main/plugins/design-craft"
+    }
+  ]
+}
