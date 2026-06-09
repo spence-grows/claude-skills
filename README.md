@@ -3,7 +3,7 @@
 A small library of Claude Code skills I built for design-strategy and consulting work at frog / Capgemini Invent. Sharing them as we roll Claude Code out more broadly.
 
 Two ways in:
-- **`design-craft`** — an installable plugin bundling my 9-stage design process, slide branding, and likeness-portrait generation.
+- **`design-craft`** — an installable plugin bundling my 9-stage design process and Capgemini Invent slide branding.
 - **Standalone skills** — everything else, as individual skills you can grab à la carte.
 
 > Please keep attribution intact if you fork or adapt these — I put real effort into them. Issues / improvements welcome back here so everyone benefits.
@@ -23,7 +23,6 @@ Install once via the marketplace:
 |---|---|
 | **design-process** | The cohesive **9-stage design playbook** (frame → research → plan → draft → verify → audit → perf → ship) + 5-dimension critique rubric + scaffolds for per-project design-discipline / design-direction skills — a disciplined workflow that resists generic AI aesthetics. |
 | **invent-exco-branding** | Capgemini Invent NA PowerPoint branding — fonts, colors, layout dims, text hierarchy, logo/footer rules for dark & light slides. |
-| **likeness-portraits** | Batch-generate consistent artistic portrait/likeness illustrations of named people for UI, cards, and decks. |
 
 ---
 

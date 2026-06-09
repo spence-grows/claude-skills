@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "design-craft",
-      "description": "A 9-stage design playbook + critique rubric, likeness-portrait generation, and Capgemini Invent NA slide branding.",
+      "description": "A 9-stage design playbook + critique rubric and Capgemini Invent NA slide branding.",
       "author": {
         "name": "Spencer Scott"
       },
